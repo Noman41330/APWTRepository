@@ -18,3 +18,4 @@ use App\Http\Controllers\ApiController;
 
 Route::get('/',[PagesController::class,'home'])->name('home');
 Route::post('/registration',[ApiController::class,'submit'])->name('submit');
+Route::post('/doctorsList',[ApiController::class,'doctorsList'])->name('doctorsList');
